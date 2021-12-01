@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+    <title>Assignment 8</title>
+    <style>
+        body {
+            font-family: arial;
+            font-size: 15px;
+        }
+        #wrapper {
+            width: 75%;
+            border: 1px solid black;
+            background-color: #e4f1e9;
+            margin: auto;
+        }
+        header {
+            height: 100px;
+            margin: 10px;
+            margin-bottom: 0px;
+            border: 1px solid black;
+            background-color: #8BA495;
+            text-align: center;
+            font-size: 21px;
+        }
+        nav {
+            float: left;
+            width: 15%;
+            border: 1px solid black;
+            background-color: #a47d7b;
+            margin: 20px 1% 20px 1%;
+            text-align: center;
+        }
+        article {
+            float: left;
+            width: 63%;
+            border: 1px solid black;
+            background-color: #fff;
+            margin: 20px 1% 20px 1%;
+        }
+        aside {
+            float: right;
+            width: 15%;
+            border: 1px solid black;
+            background-color: #f1e5e4;
+            margin: 20px 1% 20px 1%;
+        }  
+        footer {
+            clear: left;
+            height: 75px;
+            border: 1px solid black;
+            margin: 10px;
+            background-color: #8ba495;
+        }          
+        .copy {
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+        article h2, aside h2, footer h2 {
+            text-align: center;
+        }
+        a:link {
+            color: #ebefed;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        h2 {
+            font-family: 'Noto Serif', serif;        
+        }
+    </style>
+</head>
+<body>
+    <section id="wrapper">
+        <header>
+            <h1>&lt;header&gt; Flexible Page Layout</h1>
+        </header>
+        <nav>
+            <h2>&lt;nav&gt; Links</h2>
+            <p>
+                <a href="#">Link 1</a>
+            </p>
+            <p>
+                <a href="#">Link 2</a>
+            </p>
+            <p>
+                <a href="#">Link 3</a>
+            </p>
+            <p>
+                <a href="#">Link 4</a>
+            </p>
+            <p>
+                <a href="#">Link 5</a>
+            </p>
+        </nav>
+        <article>
+            <h2>&lt;article&gt;</h2>
+            <p class="copy">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil cumque obcaecati perspiciatis. Autem atque ducimus vel magnam quibusdam, alias ex? Culpa, dignissimos earum et vel dolores amet delectus adipisci nemo!
+            </p>
+
+            <p class="copy">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis corrupti vel tempore obcaecati ipsum cum, asperiores maiores beatae voluptatibus veniam reiciendis vitae dignissimos dolorum necessitatibus accusantium repellat totam! Sunt!
+
+            </p>
+
+            <p class="copy">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit a accusantium magni, consequuntur error doloremque autem mollitia quidem necessitatibus dicta excepturi iusto omnis. Aperiam voluptatibus facilis veritatis perspiciatis sunt labore.
+            </p>
+
+            <p class="copy">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime error accusamus quos corporis vel odio esse alias quidem, necessitatibus natus maiores, qui voluptatibus quis porro exercitationem voluptates omnis, numquam nihil.
+            </p>
+            <p class="copy">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem laborum sint tenetur et in optio cum officia, aut unde minima velit voluptatibus id facere fugit aliquam maiores quis temporibus incidunt.
+            </p>
+        </article>
+        <aside>
+            <h2>&lt;aside&gt;</h2>
+        </aside>
+        <footer>
+            <h2>&lt;footer&gt;</h2>
+        </footer>
+    </section>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="equalCols.js"></script>
+</body>
+</html>
